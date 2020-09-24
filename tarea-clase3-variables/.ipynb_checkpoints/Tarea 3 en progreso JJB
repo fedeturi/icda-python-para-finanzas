@@ -1,0 +1,50 @@
+Consigna
+Se nos encargó desarrollar un sistema de home banking por lo que tenemos que empezar con los primeros pasos. Por el momento solo contamos con un cliente.
+
+Requisitos minimos
+Crear una variable para guardar el nombre del cliente.
+Crear una variable para guardar el apellido del cliente.
+Crear una variable para guardar el mail del cliente.
+Crear una variable para guardar el DNI del cliente.
+Como las variables Nombre, Apellido y DNI, no cambiarán , crear una variable que use una colección de datos que nos permita garantizar inmutabilidad.
+Crear una variable con el saldo inicial de la cuenta del cliente.
+Crear una variable con la cantidad de tarjetas que posee activas el cliente.
+Crear una variable que contenga una lista de los productos que el cliente tiene dados de alta (serán "caja de ahorro", "cuenta corriente", "tarjeta de credito", "tarjeta de debito", "plazo fijo", "cuenta comitente").
+Imprimir en pantalla todos los datos del cliente (Nombre, Apellido y DNI).
+Imprimir en pantalla el mensaje "Saldo inicial: \$" y agregar el saldo inicial del cliente.
+Crear una variable que represente un gasto, por un valor especifico.
+Restar el gasto al saldo de la cuenta del cliente.
+Imprimir el mensaje "Se realizo un gasto por \$" y agregar el monto gastado.
+Informar al cliente su saldo actualizado con un mensaje pertinente.
+Crear una variable que nos permita validar si un cliente está habilitado para pedir un prestamo o no (True o False).
+Requisitos extras
+Usar comentarios en el código (no están explicados en esta libreta, debe buscar en la Clase 2 o investigar "Comentarios en Python" en internet).
+Describir cada uno (o en grupos) los pasos de Requisitos minimos, usando celdas de texto enriquecido.
+Agregar una imagen de internet que sea relevante.
+Mantener el orden y la prolijidad de su libreta, al igual que hacer uso de las buenas practicas de programacion presentadas en clase (convenciones de nombres para variables).
+Agregar alguna funcionalidad extra
+Ejemplo simple
+In [ ]:
+client_name = "Federico"
+client_DNI = 12345236567
+
+client = (client_name, client_DNI)
+
+print(client)
+In [ ]:
+prestamo = True
+print(client_name + " se encuentra habilitado para solicitar un prestamo.")
+In [ ]:
+saldo = 156982.98
+print("El saldo en la cuenta es de: $" + str(saldo))
+In [ ]:
+productos = ["tarjeta de credito", "caja de ahorro"]
+
+# Puntos extra para el que use esta forma de 
+# combinar texto y variables y sea capaz de 
+# explicar que hace .format() y len(productos)
+print("Los productos del cliente son({}):".format(len(productos)))
+
+# Esto lo vamos a ver mas adelante
+for product in productos:
+    print("- " + product)
