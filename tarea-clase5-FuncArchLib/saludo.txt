@@ -1,0 +1,7 @@
+Hola!
+Este es un archivo de texto que estamos leyendo
+gracias a las funciones para manipular archivos 
+que nos provee Python.
+Es muy interesante aprender a manejar archivos
+porque nos abre nuevas oportunidades para poder
+crear soluciones para nuestros proyectos.
