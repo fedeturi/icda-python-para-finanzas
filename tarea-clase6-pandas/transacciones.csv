@@ -1,0 +1,7 @@
+nroCuenta,nroOperacion,monto,estado
+123,4532,17699,aprobada
+54,123,7000,rechazada
+901,154,15000,en proceso
+89,54,54000,aprobada
+901,154,1000,en proceso
+89,54,2000,aprobada
